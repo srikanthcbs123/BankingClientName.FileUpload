@@ -1,0 +1,6 @@
+@BankingClientName.FileUpload_HostAddress = http://localhost:5295
+
+GET {{BankingClientName.FileUpload_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

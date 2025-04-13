@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BankingClientName.FileUpload.BusinessEntities\BankingClientName.FileUpload.BusinessEntities.csproj" />
+    <ProjectReference Include="..\BankingClientName.FileUpload.DBConnectvity\BankingClientName.FileUpload.DBConnectvity.csproj" />
+    <ProjectReference Include="..\BankingClientName.FileUpload.Repository\BankingClientName.FileUpload.Repository.csproj" />
+    <ProjectReference Include="..\BankingClientName.FileUpload.Service\BankingClientName.FileUpload.Service.csproj" />
+  </ItemGroup>
+
+</Project>

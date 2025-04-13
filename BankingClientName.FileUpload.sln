@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingClientName.FileUpload", "BankingClientName.FileUpload\BankingClientName.FileUpload.csproj", "{5E614652-B931-490B-966F-20B76AF32396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingClientName.FileUpload.BusinessEntities", "BankingClientName.FileUpload.BusinessEntities\BankingClientName.FileUpload.BusinessEntities.csproj", "{A23638AB-7F21-451C-A0E3-2E9D2C3CD5CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingClientName.FileUpload.DBConnectvity", "BankingClientName.FileUpload.DBConnectvity\BankingClientName.FileUpload.DBConnectvity.csproj", "{AE555450-CACE-4DB7-9335-714FE4F0AEB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingClientName.FileUpload.Service", "BankingClientName.FileUpload.Service\BankingClientName.FileUpload.Service.csproj", "{1B93B33F-71B8-4467-9125-E5066D84296E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingClientName.FileUpload.Repository", "BankingClientName.FileUpload.Repository\BankingClientName.FileUpload.Repository.csproj", "{525303B8-AD27-4BE9-8EF1-FAA1C7E23DFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingClientName.FileUpload.UnitTest", "BankingClientName.FileUpload.UnitTest\BankingClientName.FileUpload.UnitTest.csproj", "{33E062D0-AFFC-4261-9AB5-1089AF84A816}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E614652-B931-490B-966F-20B76AF32396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E614652-B931-490B-966F-20B76AF32396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E614652-B931-490B-966F-20B76AF32396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E614652-B931-490B-966F-20B76AF32396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A23638AB-7F21-451C-A0E3-2E9D2C3CD5CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23638AB-7F21-451C-A0E3-2E9D2C3CD5CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23638AB-7F21-451C-A0E3-2E9D2C3CD5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23638AB-7F21-451C-A0E3-2E9D2C3CD5CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE555450-CACE-4DB7-9335-714FE4F0AEB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE555450-CACE-4DB7-9335-714FE4F0AEB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE555450-CACE-4DB7-9335-714FE4F0AEB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE555450-CACE-4DB7-9335-714FE4F0AEB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B93B33F-71B8-4467-9125-E5066D84296E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B93B33F-71B8-4467-9125-E5066D84296E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B93B33F-71B8-4467-9125-E5066D84296E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B93B33F-71B8-4467-9125-E5066D84296E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525303B8-AD27-4BE9-8EF1-FAA1C7E23DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525303B8-AD27-4BE9-8EF1-FAA1C7E23DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525303B8-AD27-4BE9-8EF1-FAA1C7E23DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525303B8-AD27-4BE9-8EF1-FAA1C7E23DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E062D0-AFFC-4261-9AB5-1089AF84A816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E062D0-AFFC-4261-9AB5-1089AF84A816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E062D0-AFFC-4261-9AB5-1089AF84A816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E062D0-AFFC-4261-9AB5-1089AF84A816}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5DD0B61-A8CC-473E-983F-DF03CFEAFFE8}
+	EndGlobalSection
+EndGlobal
